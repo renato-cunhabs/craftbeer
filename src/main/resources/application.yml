@@ -1,0 +1,12 @@
+server:
+  port: 9000
+  context-path: /beerhouse
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/beers
+    username: beer
+    password: 1234
